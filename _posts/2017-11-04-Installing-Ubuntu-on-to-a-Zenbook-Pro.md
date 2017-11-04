@@ -18,16 +18,25 @@ Ingredients:
 - An external keyboard (Optional)
 - An ethernet to USB adapter
 
-## Step 1: Preparation
+## Preparation
 
-1. Make a windows backup disk. You want this. Seriously. Just in case you successfully break
-everything, having this is a nice reset button. You can read here for information:
+### Make an Ubuntu USB
 
-2. Download Ubuntu. For my laptop I ran into issues with 17.10 and 16.04. But had some luck with the
-14.04 installer. Your milage may vary. Download Rufus and burn Ubuntu onto
-your other USB memory stick.
+I first created a bootable USB for Ubuntu. I had some issues with Ubuntu 16.04 onwards booting into
+the the installer properly. So I ended up using initially Ubuntu 14.04 (upgrading to 16.04 later on). 
 
-## Step 2: Shrinking the Windows partition
+First I downloaded the Ubuntu 14.04 image, and the software [Rufus](https://rufus.akeo.ie/). Rufus is
+used to create your bootable USB drve. You can use an alternative if you want, but I found Rufus fairly
+easy to use.
+
+### Make a Windows Recovery USB
+
+Just in case you break everything here, you can restore your laptop to a functional state by using the
+Windows Recovery disk.
+
+Follow the steps here to [create a Windows Recovery USB](https://support.microsoft.com/en-au/help/4026852/windows-create-a-recovery-drive).
+
+## Shrinking the Windows partition
 
 Skip this if you're replacing Windows entirely. But I wanted to keep my Windows
 partition around just in case. And it's not much extra work if you're willing to
@@ -48,7 +57,7 @@ own research.
 
 Once you've shrunk your partition you're ready to install Ubuntu.
 
-## Step 3: Installing Ubuntu
+## Installing Ubuntu
 
 I encountered some issues when trying to following this guide <> to install
 Ubuntu 16.04 immediately. Specifically, when trying to modify the Grub settings,
