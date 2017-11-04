@@ -2,9 +2,9 @@
 
 Lemme figure this out first. ;)
 
-[OI m8y](https://phod.github.io/blog-posts/2017/test.md)
-[IO.io](/blog-posts/2017/test.md)
-[cat.dog](blog-posts/2017/test.md)
+[IO.io](/_posts/2017-11-04-test.md)
+
+[cat.dog](_posts/2017-11-04-test.md)
 
 You can use the [editor on GitHub](https://github.com/phod/phod.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
