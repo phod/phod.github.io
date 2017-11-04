@@ -1,7 +1,2 @@
 theme: jekyll-theme-cayman
-defaults:
-  -
-    scope:
-      path: "" # All files.
-    values:
-      theme: jekyll-theme-cayman
+future: true
