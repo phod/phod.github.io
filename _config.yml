@@ -1,9 +1,9 @@
 title: Philip Hodder
-theme: jekyll-theme-cayman
+theme: minima
 future: true
 defaults:
   -
     scope:
       path: "_posts" # Include blog posts.
     values:
-      theme: jekyll-theme-cayman
+      theme: minima
