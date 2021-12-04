@@ -3,7 +3,15 @@ layout: post
 title: Installing Ubuntu 16.04 on an Asus Zenbook Pro UX550
 ---
 
-** IN PROGRESS **
+## Update - 2021
+
+I wrote this blog in 2017 and never completed some of the details. There's a few details and specific 
+commands missing, and at this stage I wouldn't be able to fill them in reliably.
+
+Some people have still read this blog, so I assume there's some value in keeping it up in it's current
+state. Just note that there's gaps that you'll need to figure out on your own.
+
+## Introduction
 
 I just got my Ubuntu installation finished on my Zenbook. For the most part
 I could just follow other guides, but there were a few things that had to be done.
@@ -95,3 +103,9 @@ Things to to:
 - The speakers misbehave. They are either 0% or 100%. No inbetween.
 - Upgrade Ubuntu to 17.10.
 - Battery pluggin in doesn't update icon to say charging.
+
+## Fixing speaker issues
+
+After installation, I found that the speakers would either be 0% or 100% volume, with no value inbetween.
+Obviously this sucks. I wrote up a workaround to this on StackOverflow, which I am too lazy to copy back here:
+[Volume not Adjusting (Ubuntu 16.04)](https://askubuntu.com/questions/896835/volume-not-adjusting-ubuntu-16-04/1040832#1040832)
