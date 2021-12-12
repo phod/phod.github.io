@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Clipping video via CLI.
+title: Clipping video via CLI
 ---
 
 ## Introduction
